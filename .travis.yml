@@ -49,7 +49,7 @@ script:
    - python exercises/ex14.py zed <  answers/ex14_inputs.txt
    - python exercises/ex15.py ex15_sample.txt < answers/ex15_inputs.txt
    - python exercises/ex16.py  test.txt < bash/enter.sh
-   - python exercises/ex17.py  test.txt new_file < bash/enter.sh
+   - python exercises/ex17.py  test.txt new_file.txt < bash/enter.sh
    - python exercises/ex18.py
    - python exercises/ex19.py
    - python exercises/ex20.py test.txt
