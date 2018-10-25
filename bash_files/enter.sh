@@ -1,4 +1,4 @@
-echo | ssh-keygen -P ''
-1
-2
-2
+echo | ssh-keygen -P ''  ''
+This is the first line
+This is the second line
+This is the third line
