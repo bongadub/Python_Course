@@ -19,8 +19,8 @@ install:
 #     - pip install -r requirements.txt
 
 script:
-   - exercises/python ex1.py
-   - exercises/python ex2.py
+   - python ex1.py
+   - python ex2.py
    - python ex3.py
    - python ex4.py
    - python ex5.py
