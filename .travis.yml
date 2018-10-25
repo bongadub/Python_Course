@@ -33,7 +33,7 @@ script:
    - python exercises/ex12.py < answers/ex12_inputs.txt
    - python exercises/ex13.py first second third
    - python exercises/ex14.py zed <  answers/ex14_inputs.txt
-   - python ex15.py ex15_sample.txt < ex15_inputs.txt
+   - python exercises/ex15.py ex15_sample.txt < answers/ex15_inputs.txt
    - python ex16.py  test.txt < enter.sh
    - python ex17.py  test.txt new_file < enter.sh
    - python ex18.py
