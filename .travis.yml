@@ -29,7 +29,7 @@ script:
    - python exercises/ex8.py
    - python exercises/ex9.py
    - python exercises/ex10.py
-   - python exercises/ex11.py answers/< ex11_inputs.txt
+   - python exercises/answers/ ex11.py < ex11_inputs.txt
    - python ex12.py < ex12_inputs.txt
    - python ex13.py first second third
    - python ex14.py zed < ex14_inputs.txt
