@@ -1,5 +1,3 @@
-# - - coding: utf- 8 - -
-
 from sys import argv
 
 script, input_file = argv

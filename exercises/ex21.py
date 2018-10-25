@@ -1,5 +1,3 @@
-# - - coding: utf- 8 - -
-
 def add(a, b):
 	print "ADDING %d + %d" % (a, b)
 	return a + b
@@ -13,7 +11,7 @@ def multiply(a, b):
 	return a * b
 
 def divide(a, b):
-	print "DIVIDING %d / %d" % (a, b)
+	print "DIVING %d / %d" % (a, b)
 	return a / b
 
 print "Let's do some math with just functions!"
@@ -25,7 +23,8 @@ iq = divide(100, 2)
 
 print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 
-# A puzzle for the extra credit, type it in anyway.
+
+# A puzzle for the extra credit. type it in anyway.
 print "Here is a puzzle."
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))

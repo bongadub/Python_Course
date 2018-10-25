@@ -1,5 +1,3 @@
-# - - coding: utf- 8 - -
-
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -38,15 +36,15 @@ def print_first_and_last_sorted(sentence):
 
 
 print "Let's practice everything."
-print "You'd need to know about escapes with that do \n newlines and \t tabs."
+print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
 poem = """
 \tThe lovely world
 with logic so firmly planted
-cannot discern \nthe needs of love
+cannot discern \n the needs of love
 nor comprehend passion from intuition
-and requires an explantion\n
-where there is none.
+and requires an explantion
+\n\t\twhere there is none.
 """
 
 
@@ -54,7 +52,7 @@ print "--------------"
 print poem
 print "--------------"
 
-five = 10 - 3 + 3 - 5
+five = 10 - 2 + 3 - 5
 print "This should be five: %s" % five
 
 def secret_formula(started):
@@ -73,19 +71,21 @@ print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
 start_point = start_point / 10
 
 print "We can also do that this way:"
-print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
+print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
 
-sentence = "All god\t things come to those who weight."
+sentence = "All god\tthings come to those who weight."
 
 words = break_words(sentence)
 sorted_words = sort_words(words)
-sorted_words = sort_sentence(sentence)
 
 print_first_word(words)
 print_last_word(words)
 print_first_word(sorted_words)
 print_last_word(sorted_words)
+sorted_words = sort_sentence(sentence)
+print sorted_words
 
 print_first_and_last(sentence)
+
 print_first_and_last_sorted(sentence)
