@@ -36,9 +36,9 @@ script:
    - python exercises/ex15.py ex15_sample.txt < answers/ex15_inputs.txt
    - python exercises/ex16.py  test.txt < bash/enter.sh
    - python exercises/ex17.py  test.txt new_file < bash/enter.sh
-   - python ex18.py
-   - python ex19.py
-   - python ex20.py test.txt
-   - python ex21.py
-   - python ex24.py
+   - python exercises/ex18.py
+   - python exercises/ex19.py
+   - python exercises/ex20.py test.txt
+   - python exercises/ex21.py
+   - python exercises/ex24.py
    - python < ex25_inputs.sh
