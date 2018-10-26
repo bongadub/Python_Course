@@ -44,4 +44,4 @@ script:
    - python < bash_files/ex25_inputs.sh
    - python exercises/ex29.py 
    - python exercises/ex30.py
-   - python exercises/ex31.py
+   #- python exercises/ex31.py
