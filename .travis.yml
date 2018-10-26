@@ -29,16 +29,19 @@ script:
    - python exercises/ex8.py
    - python exercises/ex9.py
    - python exercises/ex10.py
-   - python ex11.py < ex11_inputs.txt
-   - python ex12.py < ex12_inputs.txt
-   - python ex13.py first second third
-   - python ex14.py zed < ex14_inputs.txt
-   - python ex15.py ex15_sample.txt < ex15_inputs.txt
-   - python ex16.py  test.txt < enter.sh
-   - python ex17.py  test.txt new_file < enter.sh
-   - python ex18.py
-   - python ex19.py
-   - python ex20.py test.txt
-   - python ex21.py
-   - python ex24.py
-   - python < ex25_inputs.sh
+   - python exercises/ex11.py < answers/ex11_inputs.txt
+   - python exercises/ex12.py < answers/ex12_inputs.txt
+   - python exercises/ex13.py first second third
+   - python exercises/ex14.py zed <  answers/ex14_inputs.txt
+   - python exercises/ex15.py ex15_sample.txt < answers/ex15_inputs.txt
+   - python exercises/ex16.py  test.txt < bash_files/enter.sh
+   - python exercises/ex17.py  test.txt new_file.txt < bash_files/enter.sh
+   - python exercises/ex18.py
+   - python exercises/ex19.py
+   - python exercises/ex20.py test.txt
+   - python exercises/ex21.py
+   - python exercises/ex24.py
+   - python < bash_files/ex25_inputs.sh
+   - python exercises/ex29.py 
+   - python exercises/ex30.py
+   - python exercises/ex31.py
