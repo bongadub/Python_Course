@@ -28,7 +28,7 @@ script:
    - python exercises/ex7.py
    - python exercises/ex8.py
    - python exercises/ex9.py
-   #- python exercises/ex10.py
+   - python exercises/ex10.py
    - python exercises/ex11.py < answers/ex11_inputs.txt
    - python exercises/ex12.py < answers/ex12_inputs.txt
    - python exercises/ex13.py first second third
@@ -41,7 +41,7 @@ script:
    - python exercises/ex20.py test.txt
    - python exercises/ex21.py
    - python exercises/ex24.py
-   - python < bash_files/ex25_inputs.sh
+   #- python < bash_files/ex25_inputs.sh
    - python exercises/ex29.py 
    - python exercises/ex30.py
    #- python exercises/ex31.py
