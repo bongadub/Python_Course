@@ -45,4 +45,4 @@ script:
    - python exercises/ex29.py 
    - python exercises/ex30.py
    #- python exercises/ex31.py
-   - python exercises/ex41.py < ex41_inputs.txt
+   - python exercises/ex41.py < answers/ex41_inputs.txt
